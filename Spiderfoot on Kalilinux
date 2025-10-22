@@ -1,0 +1,9 @@
+sudo apt update
+sudo apt install spiderfoot
+git clone https://github.com/smicallef/spiderfoot.git
+cd spiderfoot
+pip3 install -r requirements.txt
+sudo spiderfoot -l 127.0.0.1:5001
+#Launch web interface
+http://127.0.0.1:5001
+#On web interface fun New scan of target
