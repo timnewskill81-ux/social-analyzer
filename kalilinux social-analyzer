@@ -8,3 +8,4 @@ pip install -r requirements.txt
 python3 app.py
 pip3 install social-analyzer
 python3 -m social-analyzer --username "johndoe"
+python3 -m social-analyzer --username "johndoe" --websites "youtube pinterest"
