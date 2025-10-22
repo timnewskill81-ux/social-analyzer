@@ -1,0 +1,10 @@
+sudo apt update
+sudo apt install git python3 python3-pip -y
+git clone https://github.com/qeeqbox/social-analyzer.git
+cd social-analyzer
+python3 -m venv socialenv
+source socialenv/bin/activate
+pip install -r requirements.txt
+python3 app.py
+pip3 install social-analyzer
+python3 -m social-analyzer --username "johndoe"
