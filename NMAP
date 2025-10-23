@@ -1,0 +1,4 @@
+#NMAP scans:
+sudo nmap testphp.vulnweb.com
+sudo nmap -sC -sV testphp.vulnweb.com
+sudo nmap -A testphp.vulnweb.com
